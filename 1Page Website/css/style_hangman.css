@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster|Nosifer&display=swap');
+
+
+
+
+
+body {
+    background-image: url(../images2/R21nkr.jpg);
+    background-repeat: none;
+    
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+/*    background: url(https://img.wallpapersafari.com/desktop/1536/864/60/91/R21nkr.jpg);*/
+    
+    
+}
+
+
+#inner-text {
+/*    background: #ede6e6;*/
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+h1 {
+    color: red;
+    font-family: 'Nosifer', cursive;
+    font-size: -webkit-xxx-large;
+    
+}
+
+
+p#guessingWord, p#numberOfLives, p#winningMessage, p#losingMessage {
+    font-size: xx-large;
+    margin-left: 30px;
+    color: red;
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 800px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 800px; /* Should be removed. Only for demonstration */
+}
+
+.column3 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 800px; /* Should be removed. Only for demonstration */
+}
+
+
+#Instructions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button:disabled,
+button[disabled]{
+/*  border: 1px solid #999999;*/
+  background-color: orangered;
+  color: black;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans+Condensed:300|Oswald&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+#demo {
+    text-align: center;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    background-image: url(../images2/dayne-topkin-40038-unsplash.jpg);
+ }
+
+#menu {
+    position: static;
+    list-style-type: none;
+    margin: 40px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: gray;
+    text-align: right;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0;
+
+
+
+
+}
+
+#menu li {
+    display: inline;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin:0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#landing,
+#images,
+#articles,
+.block,
+#myContactSection {
+    background: #ede6e6;
+}
+
+#articles {
+    background: #ede6e6;
+ }
+
+#landing-image {
+    background-image: url(../images2/wade-lambert-1652087-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin: 0;
+
+}
+
+#header {
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.caption {
+    padding: 3px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    align-content: center;
+    height:60vh;
+    width: 60%;
+    padding: 0.6rem;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#inner-text {
+    background: #ede6e6;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#inner-text h2 {
+    color: blueviolet;
+}
+
+.block {
+    float: left;
+    width: 33.33%;
+    border: 1px solid #ccc;
+    height: 270px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+ .block {
+     border: 2px;
+     width: 33.33%;
+     height: 500px;
+     box-sizing: border-box;
+     float: left;
+     display: inline-block;
+ padding: 10px;
+    
+    display: inline-block;
+} 
+
+.btn2{
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 1rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    background: grey;
+    color: whitesmoke;
+    transition: background 1000ms ease;
+    
+}
+
+ .btn:hover {
+    background: white;
+    color: firebrick;
+} 
+
+.clear {
+    clear: both;
+}
+
+.fixbtn {
+    position: fixed;
+    top: 300px;
+    margin-left: -600px;
+}
+
+ @media screen and (max-width:700px)
+{
+   Show nothing if screen size < 600px
+body{
+    display:none;
+    }
+    
+     .block{
+    float:none;
+        width:100%;
+        margin:10px;
+    } 
+    
+    #inner-text a{
+        float:none;
+        width:100%;
+        margin:0;
+    }
+    
+.fixbtn {
+    position: static;
+    top: 300px;
+    margin-left: -600px;
+}
+} 
+    
+    
+} 
+
+ */
